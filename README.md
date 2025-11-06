@@ -1,7 +1,11 @@
 # The London Commuter's Dilemma: rent, transportation and demographic analysis
 An interactive analysis of the rental and house prices across London compared to local transport and demographics.
 
-![London map](images/value_map_two_bed.png)
+![London rental map](images/rental_value_map_two_bedrooms.png)
+![London house price map](images/relative_house_price_2023.png)
+
+![London relative house price timeline](timeline_animations/relative_london_prices_evolution.gif)
+
 
 ## Installation and Setup
 1. **Clone and activate**
@@ -17,9 +21,9 @@ pip install -r requirements.txt
 ```
 3. **Download and process data**
 ```bash
-python scripts/01_download_data.py
-python scripts/02_process_data.py
-python scripts/03_download_commute_data.py
+python scripts/01_download_data.py #approximately 3 minutes
+python scripts/02_process_data.py #approximately 5 minutes
+python scripts/03_download_commute_time_data.py #approximately 15 minutes
 ```
 4. **Explore notebooks**
 ```bash
