@@ -1,10 +1,20 @@
 # The London Commuter's Dilemma: rent, transportation and demographic analysis
 An interactive analysis of the rental and house prices across London compared to local transport and demographics.
 
-![London rental map](images/rental_value_map_two_bedrooms.png)
+![London rental map](images/rental_value_map.png)
+
 ![London house price map](images/relative_house_price_2023.png)
 
 ![London relative house price timeline](timeline_animations/relative_london_prices_evolution.gif)
+
+
+## Data
+Housing data was provided by ONS:
+rental data = https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/adhocs/2052privaterentalmarketinlondonapril2023tomarch2024
+house prices data = https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/housing/datasets/medianpricepaidbylowerlayersuperoutputareahpssadataset46/current
+age and sex data = https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates/mid2021andmid2022
+
+Transport data was collected by the TfL API.
 
 
 ## Installation and Setup
