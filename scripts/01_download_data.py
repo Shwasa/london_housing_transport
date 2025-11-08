@@ -25,7 +25,7 @@ def download_all_stations(base_dir):
     """Download all stations and their details"""
 
     stations=[]
-    for transport in ['tube', 'elizabeth-line', 'dlr', 'overground', 'tram', 'national-rail']:
+    for transport in ['tube', 'elizabeth-line', 'dlr', 'overground', 'tram']:
         url = 'https://api.tfl.gov.uk/StopPoint/Mode/' + transport
         print('Downloading', ' '.join(transport.split('-')).title(), 'stations data...')
         try:
