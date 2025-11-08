@@ -28,7 +28,7 @@ def plot_london(gdf, edgecolour='grey', facecolour='none', missingcolour='grey',
             ax.text(s=row['BOROUGH'][:3].upper(),
                         x=row['LONG'], y=row['LAT'],
                         horizontalalignment='center',
-                        fontsize=10,
+                        fontsize=8,
                         alpha=0.8,
                         path_effects=[pe.withStroke(linewidth=3, foreground="white")])
     ax.set_aspect(1.0 / np.cos(np.radians(51.5)))  # London's latitude
