@@ -61,6 +61,10 @@ def download_all_stations(base_dir):
     ovg_stations = df[df.TYPE=='Overground']
 
     tube_stations = tube_stations[tube_stations.NAME.str.contains('Underground Station')].drop_duplicates(subset='NAME')
+    elz_stations = elz_stations[elz_stations.NAME.str.contains('Station')].drop_duplicates(subset='NAME').copy()
+    elz_stations_list = elz_stations.NAME.tolist()
+    elz_stations_list = [(station.removesuffix(' Station')).removesuffix(' Rail').replace(' (London)', '') + ' Station' for station in elz_stations_list]
+    elz_stations.loc[:,'NAME'] = elz_stations_list
     elz_stations = elz_stations[elz_stations.NAME.str.contains('Station')].drop_duplicates(subset='NAME')
     dlr_stations = dlr_stations[dlr_stations.NAME.str.contains('DLR Station')].drop_duplicates(subset='NAME')
     ovg_stations = ovg_stations[ovg_stations.NAME.str.contains('Rail Station')].drop_duplicates(subset='NAME')
