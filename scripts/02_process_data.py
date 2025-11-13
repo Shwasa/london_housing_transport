@@ -71,7 +71,7 @@ def process_LSOA_files(base_dir, boroughs_df, eng_lookup_df):
     ldn_lsoa_outline.loc[:,'geometry']=ldn_lsoa_outline.loc[:,'geometry'].to_crs('EPSG:4326') # convert to crs
     ldn_borough_outline = ldn_lsoa_outline[['BOROUGH', 'geometry']].dissolve(by='BOROUGH').reset_index() # combine geometries by borough
     ldn_borough_outline.insert(0, 'LAT', ldn_borough_outline['geometry'].centroid.y) # find new centroid and separate lat and lon
-    ldn_borough_outline.insert(1, 'LONG', ldn_borough_outline['geometry'].centroid.x)
+    ldn_borough_outline.insert(1, 'LON', ldn_borough_outline['geometry'].centroid.x)
 
     # lookup LSOA and match to outcodes
     merged_df = pd.merge(ldn_lsoa_outline, eng_lookup_df, on='LSOA21NM', how='inner').drop_duplicates(subset=['LSOA21NM']).reset_index(drop=True)
