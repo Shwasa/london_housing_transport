@@ -50,7 +50,6 @@ def download_commute_data_tfl(base_dir):
                 durations.append(data['journeys'][0]['duration'])
             except Exception as e:
                 durations.append(0)
-                print('Error: ', e)
             
             time.sleep(0.5)
             end_time = time.time()
