@@ -1,7 +1,5 @@
-# The London Commuter's Dilemma: rent, transportation and demographic analysis
-An interactive analysis of the rental and house prices across London compared to local transport and demographics.
-
-This project analyses the link between transport and rental prices in London to find which areas provide the best balance between affordable rent and reasonable commute times.
+# The London Commuter's Dilemma: rent, transportation   analysis
+An interactive analysis of the rental and house prices across London compared to local transport and demographics. This project identifies optimal areas that balance affordable rent with reasonable commute times.
 
 ## Key Insights
 
