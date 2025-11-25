@@ -42,3 +42,6 @@ venv/
 .idea/
 *.swp
 *.swo
+
+# Notes
+notes.docx
