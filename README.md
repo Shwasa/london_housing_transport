@@ -20,7 +20,7 @@ This project analyses the link between transport and rental prices in London to 
 ### Commute VS Rent Trade-offs
 - One-bed flats show highest correlation with commute times (though minimal).
 - Suggests single occupants prioritise shorter commutes and shared households prioritise affordability.
-- Best value areas: **East** or **Southeast London** (Hackney, Newham, Bexley) offer optimal balance.
+- **Best value** areas: **East** or **Southeast London** (Hackney, Newham, Bexley) offer optimal balance.
 
 ### Key Visuals
 
@@ -28,11 +28,21 @@ This project analyses the link between transport and rental prices in London to 
 
 ![London rental prices divided by room type map](images/rental_prices_map.png)
 
-![Premium table](tables/top_10_premiums.md)
+![commute vs rent](images/premiums_per_transport.png)
 
 ![commute vs rent](images/commute_to_CoL_against_median_rent.png)
 
 ![London rental value map](images/rental_value_map.png)
+
+
+### Key Tables
+
+![Top 10 highest premiums](tables/top_10_premiums.md)
+
+![Best value outcodes](tables/best_value_outcodes.md)
+
+![Worst value outcodes](tables/worst_value_outcodes.md)
+
 
 
 ## Data
