@@ -1,22 +1,22 @@
-# The London Commuter's Dilemma: rent, transportation and demographics analysis
+# The London Commuter's Dilemma: rent and transportation analysis
 An interactive analysis of the rental and house prices across London compared to local transport and demographics. This project identifies optimal areas that balance affordable rent with reasonable commute times.
 
 ## Key Insights
 
 ### Rental Market Patterns
-- The median rent per room in London in 2023 ranged from **£350** to **£4010**.
+- The median rent per room in London in 2023 ranged from **£350** to **£4010** when split by boroughs.
 - Highest rents were in Westminster, Kensington & Chelsea, and Camden for one-bedrooms.
 - Lowest rents were in Bexley and Havering for four-or-more bedrooms.
-- Outcode HA9 in Wembley consistently shows higher prices due to a shortage of rental properties.
+- Outcode HA9 in Wembley consistently showed higher prices due to a shortage of rental properties.
 
 ### Transport Premium Analysis
-- The Elizabeth line commands the highest premium with around £521 a month within 0.5km-1km.
+- The Elizabeth line commands the highest premium with people willing to pay around £521 a month more than the median when within 0.5km-1km of the Elizabeth line.
 - The tube offers the 2nd highest premium of £481 a month within 100m-200m.
-- Noise impact could be reason for Elizabeth line premium peak further away compared to tube.
+- Since the Elizabeth line occasionally operates above the ground, noise could be one reason affecting its peak distance being further away compared to the tube.
 - Premiums decrease significantly after 500m from stations.
 
 ### Commute VS Rent Trade-offs
-- One-bed flats show highest correlation with commute times (though minimal).
+- One-bed flat rents show highest correlation with commute times (though minimal).
 - Suggests single occupants prioritise shorter commutes and shared households prioritise affordability.
 - **Best value** areas: **East** or **Southeast London** (Hackney, Newham, Bexley) offer optimal balance.
 
